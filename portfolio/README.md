@@ -5,7 +5,7 @@ Clean, personal portfolio built with HTML5, CSS3, and vanilla JavaScript. Includ
 ---
 
 ## Preview
-![Preview](./assets/ele/preview.png)
+![Preview](./assets/ele/image.png)
 
 ## Features
 - Responsive layout (mobile-first)
