@@ -1,0 +1,13 @@
+services:
+  - type: static
+    name: vishal-portfolio
+    env: static
+    buildCommand: ""
+    staticPublishPath: portfolio
+    routes:
+      # Ensure /thank-you works without .html suffix
+      - type: redirect
+        source: /thank-you
+        destination: /thank-you.html
+        status: 301
+
