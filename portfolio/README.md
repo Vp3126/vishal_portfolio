@@ -4,13 +4,11 @@
 
 <h4>
   
-A modern, responsive portfolio website showcasing my journey as a Computer Science student and developer. Built with clean HTML5, CSS3, and vanilla JavaScript, featuring smooth animations, dark/light theme toggle, and a working contact form with Netlify integration. This portfolio demonstrates modern web development practices with semantic markup, CSS Grid/Flexbox layouts, and performance optimization for enhanced user experience.
+A modern, responsive portfolio website showcasing my journey as a Computer Science student and developer. Built with clean HTML5, CSS3, and vanilla JavaScript, featuring smooth animations, dark/light theme toggle, and a working contact form powered by Formspree. This portfolio demonstrates modern web development practices with semantic markup, CSS Grid/Flexbox layouts, and performance optimization for enhanced user experience.
 
 </h4>
 
-<a href="https://app.netlify.com/projects/rushii-portfolio/deploys" target="_blank"><img src="https://img.shields.io/netlify/86029997-738a-4f7b-a117-4c9595fd2a60?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify Deploy Status"></a>
-<a href="https://rushii-portfolio.netlify.app" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-Portfolio_Website-4285F4?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Portfolio"></a>
-<a href="https://github.com/rushhiii/bashfolio" target="_blank"><img src="https://img.shields.io/badge/Terminal_Portfolio-Bash_Style-2E3440?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"></a>
+<a href="https://github.com/Vp3126/vishal_portfolio" target="_blank"><img src="https://img.shields.io/badge/GitHub-Repository-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"></a>
 
 
 <div>
@@ -21,10 +19,10 @@ A modern, responsive portfolio website showcasing my journey as a Computer Scien
 
 >[!IMPORTANT]
 >## ⚙️ Modern Portfolio Features
->The Modern Portfolio Website features responsive design with dark/light theme toggle, smooth animations, and interactive elements. It includes a working contact form with Netlify integration, project filtering system, and optimized performance. The site showcases modern web development practices with semantic HTML, CSS Grid/Flexbox, and vanilla JavaScript for enhanced user experience.
+>The Modern Portfolio Website features responsive design with dark/light theme toggle, smooth animations, and interactive elements. It includes a working contact form using Formspree, project filtering system, and optimized performance. The site showcases modern web development practices with semantic HTML, CSS Grid/Flexbox, and vanilla JavaScript for enhanced user experience.
 
 ### Technologies Used
-This project uses HTML5 for semantic markup and accessibility, CSS3 for modern styling with Grid and Flexbox layouts, and vanilla JavaScript for interactive functionality. It integrates Font Awesome for professional icons, Google Fonts for typography, and Netlify for hosting with form handling. The portfolio demonstrates responsive design principles and web performance optimization.
+This project uses HTML5 for semantic markup and accessibility, CSS3 for modern styling with Grid and Flexbox layouts, and vanilla JavaScript for interactive functionality. It integrates Font Awesome for professional icons, Google Fonts for typography, and Formspree for reliable form handling. The portfolio demonstrates responsive design principles and web performance optimization.
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="50" height="50" alt="HTML5"></a>
@@ -68,7 +66,7 @@ Modern hosting platforms provide seamless deployment with powerful features like
 
 
 ### Features
-This repository features responsive web design with mobile-first approach, interactive components with smooth animations, and modern CSS techniques including Grid and Flexbox. It includes dark/light theme switching, project filtering and categorization, contact form integration with Netlify, and optimized performance with clean, semantic code structure.
+This repository features responsive web design with mobile-first approach, interactive components with smooth animations, and modern CSS techniques including Grid and Flexbox. It includes dark/light theme switching, project filtering and categorization, contact form integration with Formspree, and optimized performance with clean, semantic code structure.
 
 <a href="https://web.dev/responsive-web-design-basics/">
   <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg" width="50" height="50" alt="Responsive Design" /></a>
@@ -173,16 +171,16 @@ This repository features responsive web design with mobile-first approach, inter
   - Vanilla JavaScript for performance optimization
   - Font Awesome icons and Google Fonts integration
 
-[![Preview](./assets/ele/preview.png)](https://rushii-portfolio.netlify.app)
+[![Preview](./assets/ele/preview.png)](./index.html)
 <p>
  This portfolio project is a modern web showcase built with HTML5, CSS3, and vanilla JavaScript. The website features responsive design, smooth animations, and interactive components that demonstrate professional web development skills. Perfect for developers, students, and professionals looking to create an impressive online presence.
  <br>
 
-⚠️ <b>Note:</b> The contact form requires Netlify hosting for full functionality, or you can configure it with other form handling services.
+⚠️ <b>Note:</b> The contact form is configured with Formspree and works on any static host. Add your domain in Formspree settings after deployment.
 </p>
 
-<a href="https://rushii-portfolio.netlify.app/" target="_blank">
-  <img src="https://img.shields.io/badge/Netlify-Live%20Portfolio-5E81AC?style=for-the-badge&logo=netlify&logoColor=white&labelColor=2E3440" alt="Live Portfolio Badge">
+<a href="./index.html" target="_blank">
+  <img src="https://img.shields.io/badge/Live-Demo-5E81AC?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=2E3440" alt="Live Portfolio Badge">
 </a>
 
 <br>
@@ -434,33 +432,35 @@ Website-Portfolio/
 
 <img src="https://img.shields.io/badge/Netlify-One_Click_Deploy-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify">
 
-### Netlify (Recommended)
+### GitHub Pages / Any Static Host
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/rushhiii/Website-Portfolio)
-
-**Step-by-step deployment:**
-
-1. Fork this repository to your GitHub account
-2. Connect to Netlify - Go to [Netlify](https://netlify.com) and deploy from Git
-3. Configure Forms - Forms work automatically with Netlify
+1. Push this repository to GitHub
+2. Enable GitHub Pages (Settings → Pages → Deploy from branch → `main` → `/root`)
+3. Or deploy to Vercel/Netlify by importing the repo
 
 ### Alternative Deployment Options
 - **Vercel**: Connect GitHub repo for automatic deployment
 - **GitHub Pages**: Enable in repository settings  
 - **Firebase Hosting**: Use Firebase CLI for deployment
 
-## 📧 Contact Form Configuration
+## 📧 Contact Form Configuration (Formspree)
 
-The contact form is configured to work seamlessly with Netlify Forms:
+The contact form posts to Formspree:
 
 ```html
-<form name="portfolio-contact" method="POST" data-netlify="true" action="/thank-you" netlify-honeypot="bot-field">
+<form id="contactForm" action="https://formspree.io/f/xovpglzd" method="POST">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <input type="text" name="subject" required>
+  <textarea name="message" required></textarea>
+  <input type="hidden" name="_redirect" value="/thank-you.html">
+  <button type="submit">Send</button>
+</form>
 ```
 
-### Security Features
-- **Spam Protection**: Includes honeypot field for bot detection
-- **Success Page**: Redirects to custom thank-you page  
-- **Email Notifications**: Configure in Netlify dashboard
+### Notes
+- Add your production domain in Formspree allowed domains after deployment
+- The form redirects to `thank-you.html` after successful submission
 
 ## 🎨 Customization Guide
 
@@ -510,11 +510,11 @@ Update `projects.json` with your project data:
 
 ## Contact
 
-📧 Email: rushiofficial1205@gmail.com  
-💼 LinkedIn: [in/rushhiii](https://linkedin.com/in/rushhiii)  
-🐙 GitHub: [@rushhiii](https://github.com/rushhiii)  
-🌐 Portfolio: [rushii-portfolio.netlify.app](https://rushii-portfolio.netlify.app/)
+📧 Email: vp312600@gmail.com  
+💼 LinkedIn: [in/vishal-patel26](https://www.linkedin.com/in/vishal-patel26/)  
+🐙 GitHub: [@Vp3126](https://github.com/Vp3126)  
+🌐 Portfolio: `index.html`
 
 #
 
-<p align="center"> by <strong>@rushhiii</strong></p>
+<p align="center"> by <strong>Vishal</strong></p>
