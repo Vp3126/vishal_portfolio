@@ -921,8 +921,8 @@ body.loading .footer {
     /* width: inherit;
     height: inherit; */
     background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
-    -webkit-mask: url('../assets/ele/letter_logo_gl.png') no-repeat center;
-    mask: url('../assets/ele/letter_logo_gl.png') no-repeat center;
+    -webkit-mask: url('../ele/letter_logo_gl.png') no-repeat center;
+    mask: url('../ele/letter_logo_gl.png') no-repeat center;
     -webkit-mask-size: contain;
     mask-size: contain;
     transition: all var(--transition-normal);
@@ -2850,8 +2850,8 @@ p.project-description {
     width: 35px;
     height: 35px;
     background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
-    -webkit-mask: url('../assets/letter_logo.png') no-repeat center;
-    mask: url('../assets/letter_logo.png') no-repeat center;
+    -webkit-mask: url('../ele/letter_logo_gl.png') no-repeat center;
+    mask: url('../ele/letter_logo_gl.png') no-repeat center;
     -webkit-mask-size: contain;
     mask-size: contain;
     transition: all var(--transition-normal);

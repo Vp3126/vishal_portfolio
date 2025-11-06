@@ -1,0 +1,21 @@
+{
+  "name": "Vishal Portfolio",
+  "short_name": "Portfolio",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/assets/ele/logo_variations/web_icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/ele/logo_variations/web_icon_2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
