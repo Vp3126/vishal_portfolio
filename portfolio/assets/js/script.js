@@ -1080,8 +1080,8 @@ class PortfolioApp {
                 if (response.ok) {
                     this.showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
                     e.target.reset();
-                    // Redirect to local thank-you page (relative works on any host)
-                    try { window.location.href = '/thank-you.html'; } catch (_) {}
+                    // Redirect to local thank-you page using relative path (no domain/port)
+                    try { window.location.href = 'thank-you.html'; } catch (_) {}
                 } else {
                     // Try to read detailed errors from Formspree
                     let errorMessage = 'Failed to send message.';
