@@ -1,0 +1,59 @@
+{
+    "profile": {
+        "name": "Vishal",
+        "tagline": "Full Stack Developer & Data Science Enthusiast",
+        "location": "India",
+        "bannerImage": "../ele/card_banner.png",
+        "profileImage": "../ele/profile_pic.png",
+        "themeColor": "#8b5cf6"
+    },
+    "skills": [
+        "Full Stack Developer",
+        "Data Science",
+        "Team Leader",
+        "Freelancer"
+    ],
+    "socialLinks": [
+        {
+            "platform": "LinkedIn",
+            "url": "https://www.linkedin.com/in/vishal-patel26/",
+            "icon": "linkedin",
+            "tooltip": "LinkedIn"
+        },
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/Vp3126",
+            "icon": "github",
+            "tooltip": "GitHub"
+        },
+        {
+            "platform": "Email",
+            "url": "mailto:vp312600@gmail.com",
+            "icon": "email",
+            "tooltip": "Email"
+        },
+        {
+            "platform": "WhatsApp",
+            "url": "https://wa.me/8840206492",
+            "icon": "whatsapp",
+            "tooltip": "WhatsApp"
+        }
+    ],
+    "footer": {
+        "text": "Made by Vishal",
+        "url": "https://github.com/Vp3126",
+        "showHeart": true
+    },
+    "animations": {
+        "enableHover3D": true,
+        "enableRippleEffect": true,
+        "enableParallax": true
+    },
+    "customization": {
+        "cardWidth": "430px",
+        "cardBorderRadius": "24px",
+        "glowIntensity": "20px",
+        "backgroundType": "solid",
+        "backgroundColor": "#000000"
+    }
+}
